@@ -1,4 +1,4 @@
-연구를 위해 작성한 코드는 generate_images_pbl.py, style_mixing_pbl.py입니다.
+연구를 위해 작성한 코드는 generate_images_pbl.py, style_mixing_pbl.py입니다.  
 Rmakrdown으로 작성된 보고서 보기
 
 
