@@ -1,3 +1,6 @@
+연구를 위해 작성한 코드는 generate_images_pbl.py, style_mixing_pbl.py입니다.
+Rmakrdown으로 작성된 보고서 보기
+
 
 # 산업공학캡스톤IC-PBL 팀1 Report
 
