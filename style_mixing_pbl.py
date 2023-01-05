@@ -90,7 +90,7 @@ def style_mixing_figure_from_two_networks(png, Gs1, Gs2, w, h, src_seeds, dst_se
     src_latents = np.stack(np.random.RandomState(seed).randn(Gs2.input_shape[1]) for seed in src_seeds)
     dst_latents = np.stack(np.random.RandomState(seed).randn(Gs1.input_shape[1]) for seed in dst_seeds)
     print(src_latents,"src_latents:",src_latents.shape, type(src_latents))
-    src_dlatents = Gs1.components.mapping.run(src_latents, None) # [seed, layer, component]
+    src_dlatents = Gs2.components.mapping.run(src_latents, None) # [seed, layer, component]
     print(src_dlatents,"src_dlatents:", src_dlatents.shape, type(src_dlatents))
     dst_dlatents = Gs1.components.mapping.run(dst_latents, None) # [seed, layer, component]
     print(dst_dlatents,"dst_dlatents:", dst_dlatents.shape, type(dst_dlatents))
